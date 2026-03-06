@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary files
+Disallow: /style.css
+Disallow: /*.log$
+
+# Sitemap location
+Sitemap: https://www.suntechclasses.com/sitemap.xml
+
+# Crawl delay for polite bots
+Crawl-delay: 10
